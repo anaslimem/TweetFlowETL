@@ -1537,3 +1537,10 @@ NameError: name 'extract' is not defined
 [2025-06-20T10:36:14.334+0000] {logging_mixin.py:188} INFO - [2025-06-20T10:36:14.333+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-06-20T10:36:14.344+0000] {logging_mixin.py:188} INFO - [2025-06-20T10:36:14.344+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_dag to 2025-06-20 00:00:00+00:00, run_after=2025-06-21 00:00:00+00:00
 [2025-06-20T10:36:14.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_etl_dag.py took 0.107 seconds
+[2025-06-20T10:36:44.647+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/twitter_etl_dag.py
+[2025-06-20T10:36:44.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_etl_dag.py for tasks to queue
+[2025-06-20T10:36:44.650+0000] {logging_mixin.py:188} INFO - [2025-06-20T10:36:44.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_etl_dag.py
+[2025-06-20T10:36:44.708+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_dag' retrieved from /opt/airflow/dags/twitter_etl_dag.py
+[2025-06-20T10:36:44.720+0000] {logging_mixin.py:188} INFO - [2025-06-20T10:36:44.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-20T10:36:44.730+0000] {logging_mixin.py:188} INFO - [2025-06-20T10:36:44.730+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_dag to 2025-06-20 00:00:00+00:00, run_after=2025-06-21 00:00:00+00:00
+[2025-06-20T10:36:44.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_etl_dag.py took 0.098 seconds

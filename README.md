@@ -69,8 +69,8 @@ The transformed tweets are saved as a JSON file and uploaded to Azure Blob Stora
 
 ## 📬 Contact
 Made with ❤️ by Anas Limem
-Linkedin: 
-https://www.linkedin.com/in/anaslimem/
+    - Linkedin: 
+    https://www.linkedin.com/in/anaslimem/
 
 
 
