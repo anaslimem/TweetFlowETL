@@ -1,0 +1,3 @@
+tweepy
+python-dotenv
+azure-storage-blob

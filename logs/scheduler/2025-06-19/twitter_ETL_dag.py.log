@@ -1,0 +1,915 @@
+[2025-06-19T19:53:08.502+0000] {processor.py:161} INFO - Started process (PID=21) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:08.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:53:08.503+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:53:08.503+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:08.506+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:53:08.505+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:53:08.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:08.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.017 seconds
+[2025-06-19T19:53:38.678+0000] {processor.py:161} INFO - Started process (PID=22) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:38.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:53:38.680+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:53:38.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:38.682+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:53:38.682+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:53:38.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:53:38.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T19:54:08.999+0000] {processor.py:161} INFO - Started process (PID=23) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:09.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:54:09.004+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:54:09.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:09.009+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:54:09.009+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:54:09.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:09.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.034 seconds
+[2025-06-19T19:54:45.974+0000] {processor.py:161} INFO - Started process (PID=21) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:45.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:54:45.977+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:54:45.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:45.980+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:54:45.979+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:54:45.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:54:46.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.037 seconds
+[2025-06-19T19:55:16.158+0000] {processor.py:161} INFO - Started process (PID=22) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:55:16.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:55:16.161+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:55:16.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:55:16.166+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:55:16.165+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:55:16.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:55:16.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.041 seconds
+[2025-06-19T19:59:02.134+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:02.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:59:02.138+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:59:02.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:02.145+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:59:02.143+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:59:02.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:02.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.027 seconds
+[2025-06-19T19:59:32.340+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:32.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T19:59:32.342+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:59:32.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:32.346+0000] {logging_mixin.py:188} INFO - [2025-06-19T19:59:32.345+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T19:59:32.347+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T19:59:32.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.024 seconds
+[2025-06-19T20:00:02.528+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:02.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:00:02.530+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:00:02.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:02.533+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:00:02.532+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T20:00:02.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:02.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.021 seconds
+[2025-06-19T20:00:36.780+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:36.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:00:36.782+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:00:36.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:36.789+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:00:36.788+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T20:00:36.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:00:36.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T20:01:06.988+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:06.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:01:06.990+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:06.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:06.992+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:06.992+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T20:01:06.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:07.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.020 seconds
+[2025-06-19T20:01:37.242+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:37.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:01:37.244+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:37.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:37.247+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:37.246+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 32
+    tags=['twitter', 'etl', 'azure']
+         ^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-06-19T20:01:37.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:37.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.022 seconds
+[2025-06-19T20:01:39.286+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:39.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:01:39.288+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:39.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:39.294+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:39.293+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:01:39.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:39.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.025 seconds
+[2025-06-19T20:01:44.350+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:44.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:01:44.353+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:44.353+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:44.362+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:01:44.361+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:01:44.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:01:44.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.038 seconds
+[2025-06-19T20:02:14.604+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:14.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:02:14.607+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:02:14.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:14.613+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:02:14.612+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:02:14.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:14.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.029 seconds
+[2025-06-19T20:02:44.852+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:44.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:02:44.854+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:02:44.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:44.856+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:02:44.856+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:02:44.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:02:44.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T20:03:15.126+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:03:15.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:03:15.129+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:03:15.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:03:15.134+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:03:15.132+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:03:15.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:03:15.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.032 seconds
+[2025-06-19T20:04:18.551+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:18.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:04:18.553+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:04:18.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:18.558+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:04:18.556+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:04:18.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:18.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.021 seconds
+[2025-06-19T20:04:48.750+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:48.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:04:48.751+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:04:48.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:48.754+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:04:48.753+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:04:48.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:04:48.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.018 seconds
+[2025-06-19T20:05:18.980+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:18.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:05:18.983+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:05:18.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:18.986+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:05:18.985+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:05:18.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:19.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.028 seconds
+[2025-06-19T20:05:49.284+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:49.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:05:49.285+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:05:49.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:49.288+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:05:49.287+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:05:49.288+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:05:49.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.021 seconds
+[2025-06-19T20:06:19.699+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:19.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:06:19.701+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:06:19.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:19.703+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:06:19.702+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:06:19.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:19.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.017 seconds
+[2025-06-19T20:06:49.978+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:49.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:06:49.980+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:06:49.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:49.983+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:06:49.982+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:06:49.983+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:06:49.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T20:07:20.219+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:20.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:07:20.221+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:07:20.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:20.226+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:07:20.224+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:07:20.226+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:20.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.028 seconds
+[2025-06-19T20:07:50.495+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:50.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:07:50.497+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:07:50.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:50.500+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:07:50.499+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:07:50.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:07:50.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.021 seconds
+[2025-06-19T20:08:20.706+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:20.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:08:20.708+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:08:20.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:20.713+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:08:20.712+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:08:20.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:20.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.027 seconds
+[2025-06-19T20:08:50.927+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:50.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:08:50.928+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:08:50.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:50.931+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:08:50.931+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:08:50.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:08:50.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.022 seconds
+[2025-06-19T20:09:21.178+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:09:21.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:09:21.180+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:09:21.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:09:21.184+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:09:21.183+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:09:21.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:09:21.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.024 seconds
+[2025-06-19T20:10:41.459+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:10:41.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:10:41.462+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:10:41.462+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:10:41.466+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:10:41.465+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:10:41.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:10:41.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.023 seconds
+[2025-06-19T20:11:11.657+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:11.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:11:11.659+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:11:11.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:11.662+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:11:11.661+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:11:11.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:11.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.023 seconds
+[2025-06-19T20:11:41.896+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:41.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:11:41.898+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:11:41.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:41.900+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:11:41.899+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:11:41.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:11:41.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T20:12:12.146+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:12.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:12:12.148+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:12:12.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:12.151+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:12:12.150+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:12:12.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:12.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.024 seconds
+[2025-06-19T20:12:30.312+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:30.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:12:30.314+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:12:30.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:30.319+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:12:30.318+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:12:30.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:12:30.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.024 seconds
+[2025-06-19T20:13:00.550+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:00.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:13:00.553+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:00.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:00.557+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:00.556+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:13:00.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:00.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.032 seconds
+[2025-06-19T20:13:19.744+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:19.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:13:19.747+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:19.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:19.774+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:19.761+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:13:19.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:19.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.053 seconds
+[2025-06-19T20:13:49.980+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:49.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:13:49.981+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:49.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:49.984+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:13:49.983+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:13:49.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:13:49.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.018 seconds
+[2025-06-19T20:14:20.244+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:20.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:14:20.246+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:14:20.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:20.250+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:14:20.249+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:14:20.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:20.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.030 seconds
+[2025-06-19T20:14:50.521+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:50.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:14:50.524+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:14:50.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:50.528+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:14:50.527+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:14:50.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:14:50.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.033 seconds
+[2025-06-19T20:15:20.769+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:20.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:15:20.771+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:15:20.771+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:20.774+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:15:20.773+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:15:20.774+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:20.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.019 seconds
+[2025-06-19T20:15:51.142+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:51.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:15:51.143+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:15:51.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:51.146+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:15:51.145+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:15:51.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:15:51.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.022 seconds
+[2025-06-19T20:16:21.513+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:16:21.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:16:21.515+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:16:21.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:16:21.520+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:16:21.519+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:16:21.521+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:16:21.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.034 seconds
+[2025-06-19T20:17:06.140+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:06.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:17:06.146+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:17:06.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:06.149+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:17:06.148+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:17:06.149+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:06.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.023 seconds
+[2025-06-19T20:17:36.360+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:36.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:17:36.362+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:17:36.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:36.367+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:17:36.365+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:17:36.367+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:17:36.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.028 seconds
+[2025-06-19T20:18:06.633+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:06.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:18:06.635+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:18:06.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:06.639+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:18:06.638+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:18:06.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:06.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.028 seconds
+[2025-06-19T20:18:36.929+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:36.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:18:36.931+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:18:36.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:36.934+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:18:36.933+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:18:36.935+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:18:36.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.022 seconds
+[2025-06-19T20:19:07.236+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:07.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:19:07.238+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:19:07.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:07.241+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:19:07.240+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:19:07.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:07.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.021 seconds
+[2025-06-19T20:19:37.572+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:37.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:19:37.575+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:19:37.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:37.580+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:19:37.579+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:19:37.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:19:37.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.035 seconds
+[2025-06-19T20:20:07.896+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:07.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:20:07.898+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:20:07.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:07.902+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:20:07.901+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:20:07.902+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:07.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.027 seconds
+[2025-06-19T20:20:38.230+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:38.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:20:38.232+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:20:38.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:38.236+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:20:38.235+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:20:38.236+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:20:38.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.029 seconds
+[2025-06-19T20:21:08.571+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:08.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:21:08.575+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:21:08.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:08.580+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:21:08.579+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:21:08.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:08.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.034 seconds
+[2025-06-19T20:21:38.963+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:38.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:21:38.965+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:21:38.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:38.969+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:21:38.968+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:21:38.969+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:21:38.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.025 seconds
+[2025-06-19T20:37:49.130+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:37:49.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:37:49.133+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:37:49.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:37:49.137+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:37:49.136+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:37:49.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:37:49.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.031 seconds
+[2025-06-19T20:53:45.335+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:53:45.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T20:53:45.337+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:53:45.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:53:45.341+0000] {logging_mixin.py:188} INFO - [2025-06-19T20:53:45.340+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T20:53:45.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T20:53:45.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.024 seconds
+[2025-06-19T21:10:22.469+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:10:22.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T21:10:22.471+0000] {logging_mixin.py:188} INFO - [2025-06-19T21:10:22.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:10:22.475+0000] {logging_mixin.py:188} INFO - [2025-06-19T21:10:22.474+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T21:10:22.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:10:22.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.022 seconds
+[2025-06-19T21:42:08.277+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:42:08.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T21:42:08.281+0000] {logging_mixin.py:188} INFO - [2025-06-19T21:42:08.281+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:42:08.286+0000] {logging_mixin.py:188} INFO - [2025-06-19T21:42:08.285+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T21:42:08.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T21:42:08.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.035 seconds
+[2025-06-19T22:01:41.275+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:01:41.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:01:41.278+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:01:41.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:01:41.283+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:01:41.281+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:01:41.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:01:41.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.034 seconds
+[2025-06-19T22:17:32.671+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:17:32.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:17:32.673+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:17:32.673+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:17:32.677+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:17:32.676+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:17:32.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:17:32.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.029 seconds
+[2025-06-19T22:38:44.844+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:38:44.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:38:44.847+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:38:44.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:38:44.852+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:38:44.851+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:38:44.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:38:44.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.033 seconds
+[2025-06-19T22:39:15.221+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:39:15.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:39:15.224+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:39:15.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:39:15.229+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:39:15.228+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:39:15.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:39:15.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.035 seconds
+[2025-06-19T22:57:20.837+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:20.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:57:20.841+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:57:20.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:20.845+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:57:20.844+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:57:20.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:20.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.025 seconds
+[2025-06-19T22:57:51.194+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:51.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T22:57:51.198+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:57:51.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:51.202+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:57:51.201+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T22:57:51.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T22:57:51.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.031 seconds
+[2025-06-19T23:39:55.984+0000] {processor.py:161} INFO - Started process (PID=260) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:39:55.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T23:39:55.987+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:39:55.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:39:55.992+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:39:55.991+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T23:39:55.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:39:56.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.033 seconds
+[2025-06-19T23:40:26.377+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:40:26.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T23:40:26.379+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:40:26.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:40:26.381+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:40:26.381+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T23:40:26.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:40:26.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.016 seconds
+[2025-06-19T23:53:21.771+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:53:21.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_ETL_dag.py for tasks to queue
+[2025-06-19T23:53:21.775+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:53:21.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:53:21.778+0000] {logging_mixin.py:188} INFO - [2025-06-19T23:53:21.777+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/twitter_ETL_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_ETL_dag.py", line 4, in <module>
+    import tweepy
+ModuleNotFoundError: No module named 'tweepy'
+[2025-06-19T23:53:21.779+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_ETL_dag.py
+[2025-06-19T23:53:21.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_ETL_dag.py took 0.029 seconds
