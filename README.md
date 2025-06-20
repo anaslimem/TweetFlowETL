@@ -16,7 +16,7 @@ This project demonstrates an end-to-end data pipeline using **Apache Airflow** t
 
 ├── dags/
 
-│ └── twitter_ETL_dag.py # Airflow DAG definition
+     └── twitter_ETL_dag.py # Airflow DAG definition
 
 ├── logs/ # Airflow logs
 
