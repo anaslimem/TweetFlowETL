@@ -37,7 +37,7 @@ This project demonstrates an end-to-end data pipeline using **Apache Airflow** t
 ### Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/TweetFlowETL.git
+git clone https://github.com/anaslimem/TweetFlowETL.git
 cd TweetFlowETL
 ```
 
@@ -72,7 +72,8 @@ The transformed tweets are saved as a JSON file and uploaded to Azure Blob Stora
 
 ## 📬 Contact
 Made with ❤️ by Anas Limem
-Linkedin: https://www.linkedin.com/in/anaslimem/
+Linkedin: 
+https://www.linkedin.com/in/anaslimem/
 
 
 
