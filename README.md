@@ -2,7 +2,6 @@
 
 An ETL (Extract, Transform, Load) pipeline project that extracts tweets from the Twitter API, transforms the data, and loads it into Azure Blob Storage.
 
----
 
 ## 📌 Project Overview
 
@@ -12,21 +11,28 @@ This project demonstrates an end-to-end data pipeline using **Apache Airflow** t
 - **Transform** the data (filtering, restructuring, cleaning).
 - **Load** the final JSON data into **Azure Blob Storage** (Container: `tweet`).
 
----
 
 ## 📁 Folder Structure
 
 ├── dags/
+
 │ └── twitter_ETL_dag.py # Airflow DAG definition
+
 ├── logs/ # Airflow logs
+
 ├── plugins/ # Custom Airflow plugins (if any)
+
 ├── .env # Environment variables
-├── docker-compose.yaml # Docker environment setup for Airflow
+
+├── docker-compose.yaml # Docker environment setup 
+for Airflow
+
 ├── elonmusk_tweets.json # Extracted/Transformed data (sample)
+
 ├── README.md # Project documentation
+
 ├── requirements.txt # Python dependencies
 
----
 
 ### Prerequisites
 
