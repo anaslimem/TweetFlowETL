@@ -14,24 +14,15 @@ This project demonstrates an end-to-end data pipeline using **Apache Airflow** t
 
 ## 📁 Folder Structure
 
-├── dags/
-
+    ├── dags/
      └── twitter_ETL_dag.py # Airflow DAG definition
-
-├── logs/ # Airflow logs
-
-├── plugins/ # Custom Airflow plugins (if any)
-
-├── .env # Environment variables
-
-├── docker-compose.yaml # Docker environment setup 
-for Airflow
-
-├── elonmusk_tweets.json # Extracted/Transformed data (sample)
-
-├── README.md # Project documentation
-
-├── requirements.txt # Python dependencies
+    ├── logs/ # Airflow logs
+    ├── plugins/ # Custom Airflow plugins (if any)
+    ├── .env # Environment variables
+    ├── docker-compose.yaml # Docker environment setup for Airflow
+    ├── elonmusk_tweets.json # Extracted/Transformed data (sample)
+    ├── README.md # Project documentation
+    ├── requirements.txt # Python dependencies
 
 
 ### Prerequisites
