@@ -1,0 +1,19 @@
+[2025-06-21T08:46:07.152+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-21T08:46:07.165+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: twitter_etl_dag.check_env_vars scheduled__2025-06-20T00:00:00+00:00 [queued]>
+[2025-06-21T08:46:07.169+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: twitter_etl_dag.check_env_vars scheduled__2025-06-20T00:00:00+00:00 [queued]>
+[2025-06-21T08:46:07.169+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2025-06-21T08:46:07.175+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): check_env_vars> on 2025-06-20 00:00:00+00:00
+[2025-06-21T08:46:07.179+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'twitter_etl_dag', 'check_env_vars', 'scheduled__2025-06-20T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/twitter_etl_dag.py', '--cfg-path', '/tmp/tmprcb1d_fh']
+[2025-06-21T08:46:07.182+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask check_env_vars
+[2025-06-21T08:46:07.182+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=218) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-21T08:46:07.183+0000] {standard_task_runner.py:63} INFO - Started process 219 to run task
+[2025-06-21T08:46:07.206+0000] {task_command.py:426} INFO - Running <TaskInstance: twitter_etl_dag.check_env_vars scheduled__2025-06-20T00:00:00+00:00 [running]> on host 79810ee6c4d8
+[2025-06-21T08:46:07.239+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='twitter_etl_dag' AIRFLOW_CTX_TASK_ID='check_env_vars' AIRFLOW_CTX_EXECUTION_DATE='2025-06-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-20T00:00:00+00:00'
+[2025-06-21T08:46:07.239+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-21T08:46:07.245+0000] {twitter_etl_dag.py:39} INFO - Environment variables are set correctly.
+[2025-06-21T08:46:07.245+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-21T08:46:07.245+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-21T08:46:07.250+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=twitter_etl_dag, task_id=check_env_vars, run_id=scheduled__2025-06-20T00:00:00+00:00, execution_date=20250620T000000, start_date=20250621T084607, end_date=20250621T084607
+[2025-06-21T08:46:07.283+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-21T08:46:07.293+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-21T08:46:07.294+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
